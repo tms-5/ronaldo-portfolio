@@ -25,7 +25,7 @@ const pillars = [
           Atendimento especializado em Doenças Crônicas Não Transmissíveis (DCNTs), com foco em prevenção, tratamento e promoção da saúde metabólica através da nutrição baseada em evidências.
         </p>
         <div class="mt-8 flex flex-col gap-4 sm:flex-row animate-in" style="--delay: 340ms">
-          <UiButton href="#contato" icon="Mail">Entre em contato</UiButton>
+          <UiButton href="https://www.instagram.com/ronaldo.nutrii" icon="Instagram">Entre em contato</UiButton>
           <UiButton href="#abordagem" variant="secondary">Conhecer a abordagem</UiButton>
         </div>
       </div>

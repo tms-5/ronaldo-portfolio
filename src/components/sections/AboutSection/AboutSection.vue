@@ -4,7 +4,7 @@ import AboutCommitment from './AboutCommitment.vue'
 import AboutMatrixItem from './AboutMatrixItem.vue'
 
 const features = [
-  { icon: 'GraduationCap', title: 'Formação', text: 'Estudante de Nutrição pela Universidade Católica de Pernambuco.' },
+  { icon: 'GraduationCap', title: 'Formação', text: '5º período | UNICAP e Conteúdo Aplicado à Patologias.' },
   { icon: 'BookOpen', title: 'Base', text: 'Ciência, fisiologia e pensamento crítico como pilares do atendimento.' },
   { icon: 'Target', title: 'Foco', text: 'Prevenção e manejo estratégico de fatores de risco que impactam sua saúde.' },
   { icon: 'UserRound', title: 'Abordagem', text: 'Individualizada, integrada e centrada no paciente.' },

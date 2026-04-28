@@ -35,7 +35,7 @@ const navigate = (id) => {
           <span class="absolute inset-x-4 bottom-1 h-px origin-left bg-forest-500 transition duration-300" :class="active === item.id ? 'scale-x-100' : 'scale-x-0'" />
         </button>
       </nav>
-      <UiButton href="#contato" variant="secondary" icon="Instagram" class="hidden sm:inline-flex">Instagram</UiButton>
+      <UiButton href="https://www.instagram.com/ronaldo.nutrii" variant="secondary" icon="Instagram" class="hidden sm:inline-flex">Instagram</UiButton>
       <button
         type="button"
         class="inline-flex size-11 items-center justify-center rounded-lg border border-forest-300/50 bg-white/60 text-forest-700 transition duration-300 hover:bg-forest-50 lg:hidden"

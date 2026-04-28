@@ -22,7 +22,7 @@ import UiIcon from "../../ui/UiIcon.vue";
       </p>
     </div>
     <UiButton
-      href="https://www.instagram.com/"
+      href="https://www.instagram.com/ronaldo.nutrii"
       variant="secondary"
       icon="Instagram"
       >Ver no Instagram</UiButton
