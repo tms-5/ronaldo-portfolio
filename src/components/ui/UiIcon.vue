@@ -78,6 +78,7 @@ const iconMap = {
   UserRound,
   MessageCircle,
   X,
+  Menu,
 }
 
 const Icon = iconMap[props.name] || Circle
