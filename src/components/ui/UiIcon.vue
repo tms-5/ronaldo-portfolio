@@ -1,0 +1,88 @@
+<script setup>
+import {
+  Activity,
+  BarChart3,
+  BookOpen,
+  CalendarDays,
+  Check,
+  ChevronDown,
+  Circle,
+  CircleArrowRight,
+  ClipboardCheck,
+  ClipboardList,
+  Droplet,
+  FileCheck2,
+  GraduationCap,
+  Heart,
+  HeartPulse,
+  Hourglass,
+  Instagram,
+  Leaf,
+  Mail,
+  MapPin,
+  Menu,
+  Microscope,
+  Puzzle,
+  RefreshCw,
+  Shield,
+  ShieldCheck,
+  SlidersHorizontal,
+  Sprout,
+  Stethoscope,
+  Target,
+  TrendingUp,
+  UserCheck,
+  UserRound,
+  MessageCircle,
+  X,
+} from 'lucide-vue-next'
+
+const props = defineProps({
+  name: { type: String, required: true },
+  size: { type: [Number, String], default: 22 },
+  strokeWidth: { type: [Number, String], default: 1.7 },
+})
+
+const iconMap = {
+  Activity,
+  BarChart3,
+  BookOpen,
+  CalendarDays,
+  Check,
+  ChevronDown,
+  Circle,
+  CircleArrowRight,
+  ClipboardCheck,
+  ClipboardList,
+  Droplet,
+  FileCheck2,
+  GraduationCap,
+  Heart,
+  HeartPulse,
+  Hourglass,
+  Instagram,
+  Leaf,
+  Mail,
+  MapPin,
+  Microscope,
+  Puzzle,
+  RefreshCw,
+  Shield,
+  ShieldCheck,
+  SlidersHorizontal,
+  Sprout,
+  Stethoscope,
+  Target,
+  TrendingUp,
+  UserCheck,
+  UserRound,
+  MessageCircle,
+  X,
+}
+
+const Icon = iconMap[props.name] || Circle
+</script>
+
+<template>
+  <component :is="Icon" :size="size" :stroke-width="strokeWidth" aria-hidden="true" />
+</template>
