@@ -28,7 +28,7 @@ const { activeSection, visibleSections, scrollToSection } = useSectionTracker(se
       :key="section.id"
       :visible="visibleSections.has(section.id)"
       :class="[
-        section.id === 'inicio' ? 'bg-linen' : section.id === 'contato' ? 'footer-shell bg-white' : 'bg-gradient-to-b from-white to-linen',
+        section.id === 'inicio' ? 'bg-linen overflow-hidden' : section.id === 'contato' ? 'footer-shell bg-white' : 'bg-gradient-to-b from-white to-linen',
       ]"
     >
       <component :is="section.component" />
