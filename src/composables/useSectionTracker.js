@@ -50,7 +50,7 @@ export function useSectionTracker(sectionIds) {
         visibleSections.value = next
         updateActiveSection()
       },
-      { threshold: [0.18, 0.38, 0.62] },
+      { threshold: 0.01, rootMargin: '0px 0px -8% 0px' },
     )
 
     resizeObserver = new ResizeObserver(updateActiveSection)
